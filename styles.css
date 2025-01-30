@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 20px;
+  }
+  form {
+    background-color: rgb(200, 0, 255);
+    padding: 30px;
+    border: 5px solid #a70659;
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #fd0404;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  label {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 575;
+    padding: 4px;
+    line-height: 1.5;
+  }
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 4px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid #9d2099;
+  }
+  form label{
+    display: block;
+    margin-bottom: 7px;
+    color: #000;
+  }
+  input[type="submit"] {
+    background-color: #9d2099;
+    color: white;
+    padding: 5px;
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  input[type="submit"]:hover {
+    background-color: #a70659;
+    
+  }
+  input[type="reset"] {
+    background-color: #9d2099;
+    color: white;
+    padding: 5px;
+    border:0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+  }
+  input[type="reset"]:hover {
+    background-color: #a70659;
+  }
+  div {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+  }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:none;
+    color: rgb(76, 76, 76);
+    position: bottom; 
+    width: 100%;
+  }
+  .box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid white;
+    background-color: #fff;
+    text-align: center;
+  }
+.flex-container {
+  display: flex;
+  align-content: center;
+  margin-top: 0px;
+}
+
+.flex-item {
+  background-color: #9d2099;
+  padding: 5px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  border: #9d2099;
+  border-radius: 5px;
+}
+.flex-item:hover {
+  background-color: #a70659;
+}
